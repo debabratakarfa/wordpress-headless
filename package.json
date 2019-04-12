@@ -1,0 +1,33 @@
+{
+  "name": "rippling",
+  "version": "1.0.0",
+  "description": "Rippling Portal in ReactJs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "export": "npm run build && next export"
+  },
+  "keywords": [
+    "next",
+    "wordpress",
+    "headless-cms"
+  ],
+  "author": "Debabrata Karfa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "next": "^8.0.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "superagent": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
