@@ -1,7 +1,7 @@
 {
-  "name": "rippling",
+  "name": "wp-headless",
   "version": "1.0.0",
-  "description": "Rippling Portal in ReactJs",
+  "description": "WordPress with NextJs and React",
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
